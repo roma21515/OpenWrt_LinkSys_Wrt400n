@@ -1,0 +1,20 @@
+src-git packages https://github.com/openwrt/packages.git;for-14.07
+#src-git luci https://github.com/openwrt/luci.git;605d1f1947
+src-git luci https://github.com/openwrt/luci.git;luci-0.12
+src-git routing https://github.com/openwrt/routing.git;for-14.07
+#src-git telephony https://github.com/openwrt/archive/telephony.git;for-14.07
+#src-git management https://github.com/openwrt-management/packages.git;for-14.07
+#src-git oldpackages http://git.openwrt.org/archive/14.07/packages.git
+
+#src-svn packages svn://svn.openwrt.org/openwrt/svn-archive/branches/packages_12.09
+#src-svn xwrt http://x-wrt.googlecode.com/svn/trunk/package
+#src-svn luci http://svn.luci.subsignal.org/luci/branches/luci-0.11/contrib/package
+#src-git routing git://github.com/openwrt-routing/packages.git;for-12.09.x
+
+#src-svn phone svn://svn.openwrt.org/openwrt/feeds/phone
+#src-svn efl svn://svn.openwrt.org/openwrt/feeds/efl
+#src-svn xorg svn://svn.openwrt.org/openwrt/feeds/xorg
+#src-svn desktop svn://svn.openwrt.org/openwrt/feeds/desktop
+#src-svn xfce svn://svn.openwrt.org/openwrt/feeds/xfce
+#src-svn lxde svn://svn.openwrt.org/openwrt/feeds/lxde
+#src-link custom /usr/src/openwrt/custom-feed
