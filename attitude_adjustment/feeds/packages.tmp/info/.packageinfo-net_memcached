@@ -1,0 +1,18 @@
+Source-Makefile: feeds/packages/net/memcached/Makefile
+Package: memcached
+Version: 1.4.20-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread +libevent +libpthread
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Title: The high-performance, distributed memory object caching system
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: memcached-1.4.20.tar.gz
+Type: ipkg
+Description:   Free and open source, high-performance, distributed memory object caching system
+http://memcached.org/
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+
