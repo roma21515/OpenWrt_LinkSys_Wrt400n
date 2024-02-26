@@ -1,0 +1,8 @@
+*.o
+.DS_Store
+.*.swp
+/env
+/bin
+/build_dir
+/tmp
+/logs

@@ -1,0 +1,9 @@
+#!/bin/sh
+
+/etc/init.d/miniupnpd enabled && {
+	/etc/init.d/miniupnpd stop
+	/etc/init.d/miniupnpd enable
+}
+
+rm -f /tmp/luci-indexcache
+exit 0

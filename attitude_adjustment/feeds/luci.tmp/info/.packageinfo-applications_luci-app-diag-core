@@ -1,0 +1,469 @@
+Source-Makefile: feeds/luci/applications/luci-app-diag-core/Makefile
+Package: luci-app-diag-core
+Submenu: 3. Applications
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread 
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: LuCI Diagnostics Tools (Core)
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Description: LuCI Diagnostics Tools (Core)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-diag-core-hu
+Default: LUCI_LANG_hu||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-diag-core
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-diag-core - hu translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-diag-core - Magyar (Hungarian)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-diag-core-pt
+Default: LUCI_LANG_pt||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-diag-core
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-diag-core - pt translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-diag-core - Português (Portuguese)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-diag-core-sk
+Default: LUCI_LANG_sk||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-diag-core
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-diag-core - sk translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-diag-core - Slovenčina (Slovak)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-diag-core-no
+Default: LUCI_LANG_no||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-diag-core
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-diag-core - no translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-diag-core - Norsk (Norwegian)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-diag-core-en
+Default: LUCI_LANG_en||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-diag-core
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-diag-core - en translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-diag-core - English
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-diag-core-pl
+Default: LUCI_LANG_pl||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-diag-core
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-diag-core - pl translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-diag-core - Polski (Polish)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-diag-core-uk
+Default: LUCI_LANG_uk||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-diag-core
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-diag-core - uk translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-diag-core - украї́нська (Ukrainian)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-diag-core-ru
+Default: LUCI_LANG_ru||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-diag-core
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-diag-core - ru translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-diag-core - Русский (Russian)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-diag-core-vi
+Default: LUCI_LANG_vi||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-diag-core
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-diag-core - vi translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-diag-core - Tiếng Việt (Vietnamese)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-diag-core-he
+Default: LUCI_LANG_he||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-diag-core
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-diag-core - he translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-diag-core - עִבְרִית (Hebrew)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-diag-core-ro
+Default: LUCI_LANG_ro||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-diag-core
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-diag-core - ro translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-diag-core - Română (Romanian)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-diag-core-ms
+Default: LUCI_LANG_ms||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-diag-core
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-diag-core - ms translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-diag-core - Bahasa Melayu (Malay)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-diag-core-zh-cn
+Default: LUCI_LANG_zh-cn||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-diag-core
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-diag-core - zh-cn translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-diag-core - 中文 (Chinese)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-diag-core-de
+Default: LUCI_LANG_de||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-diag-core
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-diag-core - de translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-diag-core - Deutsch (German)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-diag-core-zh-tw
+Default: LUCI_LANG_zh-tw||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-diag-core
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-diag-core - zh-tw translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-diag-core - 臺灣華語 (Taiwanese)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-diag-core-tr
+Default: LUCI_LANG_tr||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-diag-core
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-diag-core - tr translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-diag-core - Türkçe (Turkish)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-diag-core-sv
+Default: LUCI_LANG_sv||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-diag-core
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-diag-core - sv translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-diag-core - Svenska (Swedish)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-diag-core-ja
+Default: LUCI_LANG_ja||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-diag-core
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-diag-core - ja translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-diag-core - 日本語 (Japanese)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-diag-core-el
+Default: LUCI_LANG_el||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-diag-core
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-diag-core - el translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-diag-core - Ελληνικά (Greek)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-diag-core-ca
+Default: LUCI_LANG_ca||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-diag-core
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-diag-core - ca translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-diag-core - Català (Catalan)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-diag-core-es
+Default: LUCI_LANG_es||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-diag-core
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-diag-core - es translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-diag-core - Español (Spanish)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-diag-core-pt-br
+Default: LUCI_LANG_pt-br||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-diag-core
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-diag-core - pt-br translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-diag-core - Português do Brasil (Brazialian Portuguese)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-diag-core-cs
+Default: LUCI_LANG_cs||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-diag-core
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-diag-core - cs translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-diag-core - Čeština (Czech)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-diag-core-fr
+Default: LUCI_LANG_fr||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-diag-core
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-diag-core - fr translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-diag-core - Français (French)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-diag-core-it
+Default: LUCI_LANG_it||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-diag-core
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-diag-core - it translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-diag-core - Italiano (Italian)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+

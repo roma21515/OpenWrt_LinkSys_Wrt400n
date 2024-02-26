@@ -1,0 +1,469 @@
+Source-Makefile: feeds/luci/applications/luci-app-coovachilli/Makefile
+Package: luci-app-coovachilli
+Submenu: 3. Applications
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread @BROKEN
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: LuCI Support for Coova Chilli
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Description: LuCI Support for Coova Chilli
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-coovachilli-hu
+Default: LUCI_LANG_hu||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-coovachilli
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-coovachilli - hu translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-coovachilli - Magyar (Hungarian)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-coovachilli-pt
+Default: LUCI_LANG_pt||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-coovachilli
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-coovachilli - pt translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-coovachilli - Português (Portuguese)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-coovachilli-sk
+Default: LUCI_LANG_sk||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-coovachilli
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-coovachilli - sk translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-coovachilli - Slovenčina (Slovak)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-coovachilli-no
+Default: LUCI_LANG_no||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-coovachilli
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-coovachilli - no translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-coovachilli - Norsk (Norwegian)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-coovachilli-en
+Default: LUCI_LANG_en||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-coovachilli
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-coovachilli - en translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-coovachilli - English
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-coovachilli-pl
+Default: LUCI_LANG_pl||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-coovachilli
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-coovachilli - pl translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-coovachilli - Polski (Polish)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-coovachilli-uk
+Default: LUCI_LANG_uk||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-coovachilli
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-coovachilli - uk translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-coovachilli - украї́нська (Ukrainian)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-coovachilli-ru
+Default: LUCI_LANG_ru||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-coovachilli
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-coovachilli - ru translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-coovachilli - Русский (Russian)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-coovachilli-vi
+Default: LUCI_LANG_vi||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-coovachilli
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-coovachilli - vi translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-coovachilli - Tiếng Việt (Vietnamese)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-coovachilli-he
+Default: LUCI_LANG_he||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-coovachilli
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-coovachilli - he translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-coovachilli - עִבְרִית (Hebrew)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-coovachilli-ro
+Default: LUCI_LANG_ro||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-coovachilli
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-coovachilli - ro translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-coovachilli - Română (Romanian)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-coovachilli-ms
+Default: LUCI_LANG_ms||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-coovachilli
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-coovachilli - ms translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-coovachilli - Bahasa Melayu (Malay)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-coovachilli-zh-cn
+Default: LUCI_LANG_zh-cn||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-coovachilli
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-coovachilli - zh-cn translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-coovachilli - 中文 (Chinese)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-coovachilli-de
+Default: LUCI_LANG_de||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-coovachilli
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-coovachilli - de translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-coovachilli - Deutsch (German)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-coovachilli-zh-tw
+Default: LUCI_LANG_zh-tw||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-coovachilli
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-coovachilli - zh-tw translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-coovachilli - 臺灣華語 (Taiwanese)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-coovachilli-tr
+Default: LUCI_LANG_tr||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-coovachilli
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-coovachilli - tr translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-coovachilli - Türkçe (Turkish)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-coovachilli-sv
+Default: LUCI_LANG_sv||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-coovachilli
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-coovachilli - sv translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-coovachilli - Svenska (Swedish)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-coovachilli-ja
+Default: LUCI_LANG_ja||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-coovachilli
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-coovachilli - ja translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-coovachilli - 日本語 (Japanese)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-coovachilli-el
+Default: LUCI_LANG_el||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-coovachilli
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-coovachilli - el translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-coovachilli - Ελληνικά (Greek)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-coovachilli-ca
+Default: LUCI_LANG_ca||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-coovachilli
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-coovachilli - ca translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-coovachilli - Català (Catalan)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-coovachilli-es
+Default: LUCI_LANG_es||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-coovachilli
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-coovachilli - es translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-coovachilli - Español (Spanish)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-coovachilli-pt-br
+Default: LUCI_LANG_pt-br||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-coovachilli
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-coovachilli - pt-br translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-coovachilli - Português do Brasil (Brazialian Portuguese)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-coovachilli-cs
+Default: LUCI_LANG_cs||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-coovachilli
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-coovachilli - cs translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-coovachilli - Čeština (Czech)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-coovachilli-fr
+Default: LUCI_LANG_fr||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-coovachilli
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-coovachilli - fr translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-coovachilli - Français (French)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-coovachilli-it
+Default: LUCI_LANG_it||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-coovachilli
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-coovachilli - it translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-coovachilli - Italiano (Italian)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+

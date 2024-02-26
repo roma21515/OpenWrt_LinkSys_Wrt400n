@@ -1,0 +1,469 @@
+Source-Makefile: feeds/luci/applications/luci-app-minidlna/Makefile
+Package: luci-app-minidlna
+Submenu: 3. Applications
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread +minidlna
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: LuCI Support for miniDLNA
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Description: LuCI Support for miniDLNA
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-minidlna-hu
+Default: LUCI_LANG_hu||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-minidlna
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-minidlna - hu translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-minidlna - Magyar (Hungarian)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-minidlna-pt
+Default: LUCI_LANG_pt||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-minidlna
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-minidlna - pt translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-minidlna - Português (Portuguese)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-minidlna-sk
+Default: LUCI_LANG_sk||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-minidlna
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-minidlna - sk translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-minidlna - Slovenčina (Slovak)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-minidlna-no
+Default: LUCI_LANG_no||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-minidlna
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-minidlna - no translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-minidlna - Norsk (Norwegian)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-minidlna-en
+Default: LUCI_LANG_en||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-minidlna
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-minidlna - en translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-minidlna - English
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-minidlna-pl
+Default: LUCI_LANG_pl||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-minidlna
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-minidlna - pl translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-minidlna - Polski (Polish)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-minidlna-uk
+Default: LUCI_LANG_uk||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-minidlna
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-minidlna - uk translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-minidlna - украї́нська (Ukrainian)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-minidlna-ru
+Default: LUCI_LANG_ru||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-minidlna
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-minidlna - ru translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-minidlna - Русский (Russian)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-minidlna-vi
+Default: LUCI_LANG_vi||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-minidlna
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-minidlna - vi translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-minidlna - Tiếng Việt (Vietnamese)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-minidlna-he
+Default: LUCI_LANG_he||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-minidlna
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-minidlna - he translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-minidlna - עִבְרִית (Hebrew)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-minidlna-ro
+Default: LUCI_LANG_ro||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-minidlna
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-minidlna - ro translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-minidlna - Română (Romanian)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-minidlna-ms
+Default: LUCI_LANG_ms||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-minidlna
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-minidlna - ms translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-minidlna - Bahasa Melayu (Malay)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-minidlna-zh-cn
+Default: LUCI_LANG_zh-cn||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-minidlna
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-minidlna - zh-cn translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-minidlna - 中文 (Chinese)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-minidlna-de
+Default: LUCI_LANG_de||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-minidlna
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-minidlna - de translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-minidlna - Deutsch (German)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-minidlna-zh-tw
+Default: LUCI_LANG_zh-tw||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-minidlna
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-minidlna - zh-tw translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-minidlna - 臺灣華語 (Taiwanese)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-minidlna-tr
+Default: LUCI_LANG_tr||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-minidlna
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-minidlna - tr translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-minidlna - Türkçe (Turkish)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-minidlna-sv
+Default: LUCI_LANG_sv||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-minidlna
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-minidlna - sv translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-minidlna - Svenska (Swedish)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-minidlna-ja
+Default: LUCI_LANG_ja||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-minidlna
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-minidlna - ja translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-minidlna - 日本語 (Japanese)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-minidlna-el
+Default: LUCI_LANG_el||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-minidlna
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-minidlna - el translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-minidlna - Ελληνικά (Greek)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-minidlna-ca
+Default: LUCI_LANG_ca||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-minidlna
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-minidlna - ca translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-minidlna - Català (Catalan)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-minidlna-es
+Default: LUCI_LANG_es||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-minidlna
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-minidlna - es translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-minidlna - Español (Spanish)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-minidlna-pt-br
+Default: LUCI_LANG_pt-br||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-minidlna
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-minidlna - pt-br translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-minidlna - Português do Brasil (Brazialian Portuguese)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-minidlna-cs
+Default: LUCI_LANG_cs||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-minidlna
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-minidlna - cs translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-minidlna - Čeština (Czech)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-minidlna-fr
+Default: LUCI_LANG_fr||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-minidlna
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-minidlna - fr translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-minidlna - Français (French)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: luci-i18n-minidlna-it
+Default: LUCI_LANG_it||(ALL&&m)
+Version: x-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread luci-app-minidlna
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Title: luci-app-minidlna - it translation
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-minidlna - Italiano (Italian)
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+
